@@ -1,0 +1,71 @@
+/* Reset */
+html,body,h1,h2,h3,h4,p,a,ul,li,div{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-size:16px;
+    font-family:Helvetica,Arial,sans-serif;
+}
+.content p,
+.sidebar p{
+    font-family:Georgia,serif;
+}
+.content{
+    color:blue;
+}
+.sidebar{
+    color:red;
+}
+
+/* Font */
+.content #lead h2,
+.sidebar h2{
+    font-size:1.8em;
+}
+.article h2{
+    font-size:1.2em;
+}
+header{
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+/* Color and style */
+header{
+    border-bottom:2px solid #000;
+}
+
+/* Positioning */
+.container{
+    width:1170px;
+    margin:auto;
+}
+.content{
+    width:66.66%;
+    float:left;
+}
+    .content #lead{
+        width:98%;
+
+    }
+    .content .article{
+        width:48%;
+        float:left;
+        margin:0 1%;
+        border-bottom:1px solid blue;
+    }
+.sidebar{
+    width:33.33%;
+    float:left;
+    padding:10px 0;
+}
+
+/* Margin and padding */
+header{
+    padding:20px 0;
+}
+.article{
+    padding: 10px 0 15px;
+}
