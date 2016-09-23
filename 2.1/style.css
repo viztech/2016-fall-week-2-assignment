@@ -1,4 +1,5 @@
-/* Reset */
+/* style.css */
+
 html,body,h1,h2,h3,h4,p,a,ul,li,div{
     margin:0;
     padding:0;
@@ -7,5 +8,69 @@ html,body,h1,h2,h3,h4,p,a,ul,li,div{
 /* Global styles */
 body{
     font-size:16px;
+    font-family: Helvetica;
     font-family:Helvetica,Arial,sans-serif;
+}
+
+.content{ color: blue }
+.sidebar{ color: red }
+.content p, .sidebar p{ font-family: Georgia }
+
+
+
+header {
+	width: 100%;
+	text-transform:uppercase;
+	font-weight:bolder;
+	padding-top:20px;
+	padding-bottom:20px;
+	border-bottom: 1px solid black;
+}
+
+#lead {
+	width: 98%;
+    margin: auto 1%;
+}
+
+.content {
+	width: 66.66%;
+	position:relative;
+	float: left;
+}
+
+.sidebar{
+	width: 33.33%;
+	position:relative;
+	float: right;
+}
+
+.content article{
+	float:left;
+	position: relative;
+	width: 48%;
+	margin: auto 1%;
+
+}
+
+.article .h2 {
+	font-size: 1.2em;
+
+}
+
+
+
+.content .article {
+	padding-top: 10px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid blue;
+
+}
+
+.container .sidebar {
+	padding-top: 10px;
+}
+
+.container .sidebar .article {
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
